@@ -1,0 +1,11 @@
+{
+  "name": "calc",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "go test calc/src/simplemath",
+    "build": "go build -o ./bin/calc calc/src/calc"
+  },
+  "author": "",
+  "license": "ISC"
+}
