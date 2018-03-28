@@ -1,0 +1,11 @@
+{
+  "name": "sort",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "go test sort/sorter/algorithms/bubblesort && go test sort/sorter/algorithms/qsort",
+    "build": "go build -o ./bin/sort sort/sorter"
+  },
+  "author": "",
+  "license": "ISC"
+}
